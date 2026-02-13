@@ -29,7 +29,7 @@ EcoLens is a privacy-focused, high-performance computer vision application desig
 ### 2. Environment Setup
 ```bash
 # Clone the repository
-git clone [https://github.com/YOUR_USERNAME/EcoLens.git](https://github.com/YOUR_USERNAME/EcoLens.git)
+git clone https://github.com/KarimovMuhammadrasul/EcoLens.git
 cd EcoLens
 
 # Create and activate virtual environment
