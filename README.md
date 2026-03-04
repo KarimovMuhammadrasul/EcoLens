@@ -1,16 +1,16 @@
 
-# ♻️ EcoLens: Localized Edge-AI for Waste Management
+# EcoLens: Localized Edge-AI for Waste Management
 
 EcoLens is a privacy-focused, high-performance computer vision application designed to automate waste segregation. By leveraging a dual-stage inference pipeline, the system identifies multiple objects in real-time and provides context-aware disposal guidance based on global sustainability standards.
 
 
 
-## 🚀 Technical Highlights
+## Technical Highlights
 * **On-Device Inference:** Optimized for **Apple Silicon (M4)** using Metal Performance Shaders (MPS), eliminating the need for cloud-based processing.
 * **Dual-Stage Pipeline:** Uses **YOLOv10** for zero-latency object detection and **Llama 3.2 Vision** for intelligent reasoning.
 * **Hardware Efficiency:** Built for 16GB RAM environments using 4-bit quantization (q4_K_M) to maintain a low memory footprint.
 
-## 🏗️ Architecture
+## Architecture
 1. **Vision Layer:** YOLOv10n scans the frame and extracts object classes.
 2. **Reasoning Layer:** A local LLM (Ollama) interprets the visual data to provide sorting instructions (Recycle, Landfill, or Hazardous).
 3. **Interface:** A streamlined FastAPI backend serving a responsive Streamlit dashboard.
@@ -19,7 +19,7 @@ EcoLens is a privacy-focused, high-performance computer vision application desig
 
 
 
-## 🛠️ Installation & Setup
+## Installation & Setup
 
 ### 1. Prerequisites
 * macOS (M-series chip recommended)
